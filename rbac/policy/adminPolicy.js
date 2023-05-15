@@ -1,0 +1,33 @@
+const  { 
+    UPLOAD_ITEM_MODEL, 
+    DELETE_ITEM_MODEL,
+    GET_ITEM,
+    GET_ALL_ITEMS,
+    EDIT_ITEM_TYPE,
+    CREATE_OUTFIT,
+    EDIT_OUTFIT,
+    GET_ALL_OUTFITS,
+    SEARCH_OUTFIT,
+    ADD_AVATAR,
+    EDIT_AVATAR,
+    DELETE_AVATAR,
+    GET_AVATAR,
+    GET_ALL_AVATARS
+} = require("../../endpoints/endpoints");
+
+module.exports = [
+    UPLOAD_ITEM_MODEL, 
+    DELETE_ITEM_MODEL,
+    GET_ITEM,
+    GET_ALL_ITEMS,
+    EDIT_ITEM_TYPE,
+    CREATE_OUTFIT,
+    EDIT_OUTFIT,
+    GET_ALL_OUTFITS,
+    SEARCH_OUTFIT,
+    ADD_AVATAR,
+    EDIT_AVATAR,
+    DELETE_AVATAR,
+    GET_AVATAR,
+    GET_ALL_AVATARS
+];
