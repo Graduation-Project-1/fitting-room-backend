@@ -2,7 +2,7 @@ let session = require("express-session");
 let mongoSessionStore = require("connect-mongodb-session")(session);
 
 let sessionStore = new mongoSessionStore({
-    uri: process.env.LOCAL_DATABASE_CONNECTION,
+    uri: process.env.CONNECTION_STRING_DEPLOY,
     collection: "Sessions",
 });
 
